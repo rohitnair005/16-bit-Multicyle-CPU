@@ -1,0 +1,22 @@
+# Simulation outputs
+*.log
+*.vcd
+*.fsdb
+*.wlf
+*.shm/
+*.trn
+*.dsn
+
+# Cadence Xcelium
+xcelium.d/
+INCA_libs/
+
+# Coverage databases
+cov_work/
+*.ucd
+*.ucm
+
+# Temporary files
+*.tmp
+*.bak
+.DS_Store
