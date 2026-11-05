@@ -25,7 +25,9 @@ The project focuses on both RTL design and verification methodology, implementin
 
 ## CPU Architecture
 
-The processor follows a multicycle execution approach, with operations controlled by a finite state machine.
+The processor follows a multicycle execution approach, with operations controlled by a finite state machine.\
+
+![16-bit Multicycle CPU Architecture](architecture.png)
 
 The CPU consists of the following major components:
 
@@ -182,6 +184,10 @@ The checkers are integrated with the DUT using SystemVerilog `bind` constructs, 
 ## Simulation and Verification Results
 
 The verification environment was simulated using Cadence Xcelium 25.03 with UVM 1.2.
+
+### Simulation Waveform
+
+![CPU Simulation Waveform](docs/waveform.png)
 
 ### Verification Summary
 
