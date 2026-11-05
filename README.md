@@ -288,6 +288,3 @@ Simple-CPU-UVM-Verification/
 
 ---
 
-## Author
-
-Developed as a digital design and verification project, focusing on RTL implementation, UVM-based functional verification, constrained-random testing, functional coverage and assertion-based verification.
